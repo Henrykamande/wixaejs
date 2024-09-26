@@ -2163,4 +2163,37 @@ ul.navbar-nav {
   }
 }
 
+
+
+/* Small screens menu */
+
+
+@media (max-width: 768px) {
+  .phone-numbers {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  /* Navbar links customization for small screens */
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 10px;
+    /* Add space between items on small screens */
+  }
+
+  .navbar-collapse {
+    background-color: #4B4B4B;
+    /* Same background for expanded menu */
+    padding: 10px;
+  }
+
+  .navbar-nav .nav-link {
+    color: #fff;
+    /* White text for links on small screens */
+  }
+}
+
 /*# sourceMappingURL=style-gold.css.map */
