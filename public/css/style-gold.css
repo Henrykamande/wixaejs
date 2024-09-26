@@ -253,10 +253,11 @@ body {
 }
 
 p {
+  color: #D3D3D3;
   font-size: 15px;
   font-weight: 300;
   font-family: 'Poppins', sans-serif;
-  color: #888;
+  /* color: #888; */
   line-height: 1.8;
   margin: 0;
 }
@@ -321,6 +322,7 @@ a:hover {
 }
 
 .section-head p {
+  color: #D3D3D3;
   font-size: 15px;
   margin-top: 15px;
 }
@@ -2033,6 +2035,47 @@ footer p {
 .hero-btn:hover {
   background-color: #ff6a7b;
   box-shadow: 0 8px 20px rgba(255, 74, 87, 0.5);
+}
+
+/* Styling for phone numbers */
+.phone-numbers {
+  float: right;
+  color: white;
+  /* Floats the phone numbers to the right */
+  margin-top: -100px;
+  /* Adjusts spacing from the top */
+  font-size: 16px;
+  color: #fff;
+  /* White text for visibility */
+}
+
+.phone-numbers p {
+  color: white;
+
+  margin: 0;
+  /* Removes extra margin around the paragraph */
+}
+
+/* Ensures the ul stays below the phone numbers */
+ul.navbar-nav {
+  clear: both;
+  /* Clears float so the ul starts below the phone numbers */
+  margin-top: 10px;
+  /* Adds some spacing from the phone numbers */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .phone-numbers {
+    float: none;
+    /* Removes float for smaller screens */
+    text-align: center;
+    margin-top: 0;
+  }
+
+  ul.navbar-nav {
+    margin-top: 0;
+  }
 }
 
 @keyframes slideInLeft {
