@@ -2056,6 +2056,41 @@ footer p {
   /* Removes extra margin around the paragraph */
 }
 
+/* Footer layout for larger screens */
+#footer2 .row {
+  display: flex;
+  /* Ensure it's a row layout by default */
+  flex-direction: row;
+  justify-content: space-between;
+  /* Spread items evenly */
+}
+
+
+
+/* Footer column layout for small screens */
+@media (max-width: 768px) {
+  #footer2 .row {
+    flex-direction: column;
+    /* Stack the columns vertically */
+    align-items: center;
+    /* Center the items horizontally */
+    text-align: center;
+    /* Optional: Center text for small screens */
+  }
+
+  #footer2 .col-md-3,
+  #footer2 .col-md-6 {
+    margin-bottom: 20px;
+    /* Add spacing between the columns */
+  }
+
+  #footer2 .address {
+    text-align: center;
+    width: 100%;
+    /* Make it full width */
+  }
+}
+
 /* Ensures the ul stays below the phone numbers */
 ul.navbar-nav {
   clear: both;
