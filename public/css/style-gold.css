@@ -57,7 +57,7 @@
 body {
   font-size: 14px;
   /*background: #fff;*/
-  background: #4B4B4B;
+  background: #F2F2F2;
   max-width: 1920px;
   margin: 0 auto;
   overflow-x: hidden;
@@ -822,6 +822,7 @@ a:hover {
      [ 05 Start Hero ]
 -----------------------------------------------------------------*/
 .hero .intro h6 {
+
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -830,14 +831,19 @@ a:hover {
 }
 
 .hero .intro h5 {
-  color: #fff;
+  color: black;
 
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 15px;
 }
 
+.hero .intro p {
+  color: #336068;
+}
+
 .hero .item {
+  background: #ffffff;
   text-align: center;
   padding: 50px 30px 40px;
   border: 1px solid #eee;
@@ -856,7 +862,7 @@ a:hover {
 }
 
 .hero .item h5 {
-  color: #fff;
+  color: black;
   font-size: 17px;
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -893,6 +899,10 @@ a:hover {
   position: absolute;
   bottom: 0;
   left: -8px;
+}
+
+.hero .item p {
+  color: #9D9154;
 }
 
 .about .about-us h4 {
@@ -1487,56 +1497,14 @@ a:hover {
   display: none;
 }
 
-.price .active .features li {
-  color: #fff;
-  font-weight: 400;
-}
 
-.price .butn {
-  padding: 10px 50px;
-}
 
-.price .revs .value:after {
-  -webkit-transform: rotate(-3deg);
-  transform: rotate(-3deg);
-}
 
-.price.flat .item {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border: 1px solid #eee;
-  color: #222;
-}
 
-.price.flat .item:before {
-  display: none;
-}
 
-.price.flat .value {
-  background: #feb500;
-  color: #fff;
-}
 
-.price.flat .value:after {
-  background: #feb500;
-}
 
-.price.flat .features li {
-  color: #333;
-}
 
-.price.flat .active .value {
-  background: #fff;
-  color: #feb500;
-}
-
-.price.flat .active .value:after {
-  background: #fff;
-}
-
-.price.flat .active .features li {
-  color: #eee;
-}
 
 /* ----------------------------------------------------------------
      [ End Price ]
@@ -1934,7 +1902,7 @@ footer p {
   font-size: 40px;
   font-weight: bold;
   width: 80%;
-  color: white;
+  color: black;
 }
 
 .Creativ i {
@@ -1942,7 +1910,8 @@ footer p {
 }
 
 .Creativ p {
-  color: #D3D3D3;
+  color: #336068;
+
   width: 100%;
   padding-top: 30px;
   padding-bottom: 40px;
@@ -1951,7 +1920,7 @@ footer p {
 .Creativ li {
   font-size: 18px;
   font-weight: bold;
-  color: #D3D3D3;
+  color: #336068;
 
   display: block;
   padding-bottom: 10px;
