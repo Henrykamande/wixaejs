@@ -58,7 +58,32 @@ app.get('/about', (req, res) => {
 app.get('/graphic-design', (req, res) => {
     res.render('pages/service_detail');
 });
+app.get('/corporate-branding',  (req, res) => {
+  res.render('pages/corporate_branding');
+});
+app.get('/bulk-printing',  (req, res) => {
+  res.render('pages/bulk_printing');
+});
 
+app.get('/banners-design-and-printing',  (req, res) => {
+  res.render('pages/banners');
+});
+
+app.get('/business-cards-design-and-printing',  (req, res) => {
+  res.render('pages/business-cards');
+});
+
+app.get('/catalogues-menu-design-and-printing', (req, res) => {
+  res.render('pages/catalogues_menu');});
+
+  app.get('/publication-magazine-design-and-printing', (req, res) => {
+    res.render('pages/publications_magazine');});
+
+
+    
+  app.get('/marketing-material-design-and-printing', (req, res) => {
+    res.render('pages/marketing_materials');});
+    
 app.listen(3001, () => {
     console.log(`Server is running on http://localhost:3001`);
 });
