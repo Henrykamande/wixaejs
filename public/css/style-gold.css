@@ -694,8 +694,9 @@ a:hover {
 }
 
 .logo {
-  padding: 15px 0;
+  padding: 5px 0;
   width: 100px;
+  float: left;
 }
 
 /* ----------------------------------------------------------------
@@ -843,9 +844,10 @@ a:hover {
 }
 
 .hero .item {
-  background: #ffffff;
+  background: #94A267;
   text-align: center;
-  padding: 50px 30px 40px;
+  height: 100px;
+  margin-bottom: auto;
   border: 1px solid #eee;
 }
 
@@ -862,8 +864,9 @@ a:hover {
 }
 
 .hero .item h5 {
-  color: black;
+  color: #FFFFFF;
   font-size: 17px;
+  padding-top: 10px;
   padding-bottom: 20px;
   margin-bottom: 20px;
   position: relative;
@@ -1763,10 +1766,11 @@ footer p {
   }
 
   .navbar .navbar-collapse {
+    float: right;
     max-height: 340px;
     overflow: auto;
     background: #111;
-    text-align: center;
+    text-align: right;
     padding: 10px 0;
   }
 
