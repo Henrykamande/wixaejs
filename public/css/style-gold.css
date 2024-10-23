@@ -962,6 +962,57 @@ a:hover {
   transition: background-color 0.3s ease;
 }
 
+.servicesbg {
+  background-color: #1D262E;
+  /* Light background color */
+  padding: 50px 0;
+  /* Padding for space around the content */
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  /* Adds shadow for 3D effect */
+  margin: 0;
+  /* Remove margin to span the full width */
+  width: 100vw;
+  height: 0.5vw;
+  /* Span the entire viewport width */
+  left: 50%;
+  transform: translateX(-50%);
+  /* Center the background relative to the viewport */
+
+  border-radius: 0 0 1000px 1000px;
+  /* Curve the top corners outward */
+
+}
+
+.servicesbg::before {
+  position: absolute;
+  top: -20px;
+  /* Adjust as needed for "pop out" effect */
+  left: 0;
+  right: 0;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.05);
+  /* Soft shadow behind */
+  z-index: -1;
+  transform: scaleX(1.05);
+  /* Expand the shadow slightly */
+}
+
+.servicesbg h3 {
+  text-align: center;
+  color: white;
+}
+
+.servicesbg .row {
+  display: flex;
+  /* Flexbox to arrange items in a row */
+  flex-wrap: wrap;
+  /* Ensures items wrap to the next line if necessary */
+  justify-content: space-between;
+  /* Space out items evenly */
+}
+
 .custom-heading {
   background-color: #94A267;
   /* Change this to your preferred background color */
