@@ -962,6 +962,17 @@ a:hover {
   transition: background-color 0.3s ease;
 }
 
+.custom-heading {
+  background-color: #94A267;
+  /* Change this to your preferred background color */
+  width: 50%;
+  /* Make it span half the page */
+  padding: 10px;
+  /* Add some padding for spacing */
+  border-radius: 5px;
+  /* Optional: for rounded corners */
+}
+
 .item .learn-more:hover {
   background: #ffc400;
 }
